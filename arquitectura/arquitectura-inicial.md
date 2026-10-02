@@ -1,57 +1,56 @@
-# Diagrama de arquitectura completa
+# Diagrama de arquitectura por bloques
 
 Sistema de Mesa de Partes Digital — Instituto Manuel Antonio Hierro Pozo
 
 ```mermaid
-flowchart TB
-    UE["Usuario externo<br/>(estudiante/docente)"]
-    PMP["Personal de<br/>Mesa de Partes"]
-    JA["Jefe de Área"]
+flowchart TD
+
+subgraph ACTORES["ACTORES"]
+    UE["Usuario externo"]
+    PMP["Personal de Mesa de Partes"]
+    JA["Jefe de Area"]
     DIR["Director"]
-    ADM["Administrador<br/>del sistema"]
+    ADM["Administrador"]
 
-    subgraph SISTEMA["Sistema de Mesa de Partes Digital"]
-        direction TB
-        subgraph L1["Capa de Presentación"]
-            WEB["Navegador Web"]
-        end
+end
 
-        subgraph L2["Capa de Lógica de Negocio"]
-            BACK["Backend (Laravel)"]
-            IA["Asistente IA"]
-            FIRMA["Módulo de Firma Electrónica"]
-        end
+subgraph PRESENTACION["PRESENTACIÓN"]
+    Web["Aplicación Web - API REST"]
+end
 
-        subgraph L3["Capa de Datos"]
-            DB[("Base de datos MySQL")]
-            CACHE[("Caché Redis")]
-        end
+subgraph NEGOCIO["LOGICA DE NEGOCIO"]
+    Tramites["Gestión de Trámites"]
+    Derivacion["Derivación y Trazabilidad"]
+    Firma["Firma Electrónica"]
+    IA["Asistente IA"]
+    Usuarios["Gestión de Usuarios y Roles"]
+    Reportes["Reportes"]
+end
 
-        WEB <--> BACK
-        BACK <--> IA
-        BACK <--> FIRMA
-        BACK <--> DB
-        BACK <--> CACHE
-        FIRMA <--> DB
-    end
+subgraph DATOS["DATOS"]
+    BD["Base de datos MySQL"]
+    Cache["Caché Redis"]
+end
 
-    UE --> WEB
-    PMP --> WEB
-    JA --> WEB
-    DIR --> WEB
-    ADM --> WEB
+ACTORES --> PRESENTACION
+PRESENTACION --> NEGOCIO
+NEGOCIO --> DATOS
 
-    classDef actor fill:#F1EFE8,stroke:#5F5E5A,color:#2C2C2A;
-    classDef pres fill:#E6F1FB,stroke:#185FA5,color:#0C447C;
-    classDef logic fill:#EEEDFE,stroke:#534AB7,color:#3C3489;
-    classDef ia fill:#E1F5EE,stroke:#0F6E56,color:#085041;
-    classDef data fill:#FAECE7,stroke:#993C1D,color:#712B13;
-    classDef cache fill:#FAEEDA,stroke:#854F0B,color:#633806;
+UE ~~~ PMP
+PMP ~~~ JA
+JA ~~~ DIR
+DIR ~~~ ADM
+Tramites ~~~ Derivacion
+Derivacion ~~~ Firma
+Firma ~~~ IA
+IA ~~~ Usuarios
+Usuarios ~~~ Reportes
+BD ~~~ Cache
 
-    class UE,PMP,JA,DIR,ADM,VER actor;
-    class WEB pres;
-    class BACK,FIRMA logic;
-    class IA ia;
-    class DB data;
-    class CACHE cache;
+style ACTORES fill:#222,stroke:#fff,stroke-width:2px,color:#fff
+style PRESENTACION fill:#222,stroke:#fff,stroke-width:2px,color:#fff
+style NEGOCIO fill:#222,stroke:#fff,stroke-width:2px,color:#fff
+style DATOS fill:#222,stroke:#fff,stroke-width:2px,color:#fff
 ```
+
+
