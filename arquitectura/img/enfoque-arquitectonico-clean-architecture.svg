@@ -1,0 +1,173 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="1700" viewBox="0 0 2400 1700">
+<defs><marker id="a" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto-start-reverse"><path d="M0 0 L8 4 L0 8 Z" fill="#444"/></marker><marker id="g" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8 Z" fill="#387c39"/></marker></defs>
+<rect x="285" y="25" width="250" height="100" rx="5" fill="#f7f7f7" stroke="#777" stroke-width="2"/>
+<text x="410" y="72" font-family="Arial" font-size="20" font-weight="bold" fill="#222" text-anchor="middle">Usuario externo</text>
+<polyline points="410,125 410,168" fill="none" stroke="#444" stroke-width="2" marker-end="url(#a)"/>
+<rect x="585" y="25" width="250" height="100" rx="5" fill="#f7f7f7" stroke="#777" stroke-width="2"/>
+<text x="710" y="72" font-family="Arial" font-size="20" font-weight="bold" fill="#222" text-anchor="middle">Personal de</text>
+<text x="710" y="97" font-family="Arial" font-size="20" font-weight="bold" fill="#222" text-anchor="middle">Mesa de Partes</text>
+<polyline points="710,125 710,168" fill="none" stroke="#444" stroke-width="2" marker-end="url(#a)"/>
+<rect x="885" y="25" width="250" height="100" rx="5" fill="#f7f7f7" stroke="#777" stroke-width="2"/>
+<text x="1010" y="72" font-family="Arial" font-size="20" font-weight="bold" fill="#222" text-anchor="middle">Jefe de Área</text>
+<polyline points="1010,125 1010,168" fill="none" stroke="#444" stroke-width="2" marker-end="url(#a)"/>
+<rect x="1185" y="25" width="250" height="100" rx="5" fill="#f7f7f7" stroke="#777" stroke-width="2"/>
+<text x="1310" y="72" font-family="Arial" font-size="20" font-weight="bold" fill="#222" text-anchor="middle">Director</text>
+<polyline points="1310,125 1310,168" fill="none" stroke="#444" stroke-width="2" marker-end="url(#a)"/>
+<rect x="1485" y="25" width="250" height="100" rx="5" fill="#f7f7f7" stroke="#777" stroke-width="2"/>
+<text x="1610" y="72" font-family="Arial" font-size="20" font-weight="bold" fill="#222" text-anchor="middle">Administrador</text>
+<polyline points="1610,125 1610,168" fill="none" stroke="#444" stroke-width="2" marker-end="url(#a)"/>
+<rect x="1785" y="25" width="250" height="100" rx="5" fill="#f7f7f7" stroke="#777" stroke-width="2"/>
+<text x="1910" y="72" font-family="Arial" font-size="20" font-weight="bold" fill="#222" text-anchor="middle">Verificador</text>
+<text x="1910" y="97" font-family="Arial" font-size="20" font-weight="bold" fill="#222" text-anchor="middle">(sin sesión)</text>
+<polyline points="1910,125 1910,168" fill="none" stroke="#444" stroke-width="2" marker-end="url(#a)"/>
+<rect x="285" y="168" width="1750" height="86" rx="5" fill="white" stroke="#777" stroke-width="2"/>
+<text x="1160" y="206" font-family="Arial" font-size="24" font-weight="bold" fill="#222" text-anchor="middle">Aplicación web (cliente)</text>
+<text x="1160" y="236" font-family="Arial" font-size="18" font-weight="normal" fill="#666" text-anchor="middle">Interfaz en el navegador — presentación de trámites, bandejas, firma, consulta y verificación</text>
+<polyline points="1160,254 1160,302" fill="none" stroke="#444" stroke-width="2" marker-end="url(#a)"/>
+<text x="1180" y="284" font-family="Arial" font-size="17" font-weight="normal" fill="#222" text-anchor="start">HTTP/HTTPS · API REST</text>
+<polyline points="40,305 1970,305 1970,1385 40,1385 40,305" fill="none" stroke="#777" stroke-width="2" stroke-dasharray="7 5"/>
+<rect x="40" y="305" width="1930" height="1080" rx="12" fill="white" stroke="#777" stroke-width="2" stroke-dasharray="9 6"/>
+<text x="65" y="346" font-family="Arial" font-size="26" font-weight="bold" fill="#222" text-anchor="start">ENFOQUE ARQUITECTÓNICO — CLEAN ARCHITECTURE</text>
+<text x="65" y="379" font-family="Arial" font-size="20" font-weight="normal" fill="#666" text-anchor="start">Mesa de Partes Digital — Instituto Manuel Antonio Hierro Pozo</text>
+<rect x="65" y="401" width="1878" height="60" rx="5" fill="#e2e2f6" stroke="#9191d7" stroke-width="2"/>
+<text x="1004" y="429" font-family="Arial" font-size="20" font-weight="bold" fill="#222" text-anchor="middle">Servicios transversales</text>
+<text x="1004" y="454" font-family="Arial" font-size="17" font-weight="normal" fill="#222" text-anchor="middle">Autenticación · Autorización · Validación · Manejo de errores · Auditoría</text>
+<rect x="65" y="490" width="385" height="767" rx="5" fill="#e5edf9" stroke="#a5bfe8" stroke-width="2"/>
+<text x="257" y="532" font-family="Arial" font-size="23" font-weight="bold" fill="#222" text-anchor="middle">PRESENTACIÓN</text>
+<text x="257" y="562" font-family="Arial" font-size="16" font-weight="normal" fill="#666" text-anchor="middle">Laravel · Controladores web / REST</text>
+<rect x="90" y="587" width="335" height="82" rx="5" fill="white" stroke="#628cd0" stroke-width="2"/>
+<text x="257" y="617" font-family="Arial" font-size="18" font-weight="bold" fill="#222" text-anchor="middle">Controlador de trámites</text>
+<text x="257" y="649" font-family="Arial" font-size="16" font-weight="normal" fill="#555" text-anchor="middle">Registro y consulta</text>
+<rect x="90" y="692" width="335" height="82" rx="5" fill="white" stroke="#628cd0" stroke-width="2"/>
+<text x="257" y="722" font-family="Arial" font-size="18" font-weight="bold" fill="#222" text-anchor="middle">Controlador de derivación</text>
+<text x="257" y="754" font-family="Arial" font-size="16" font-weight="normal" fill="#555" text-anchor="middle">Bandejas y seguimiento</text>
+<rect x="90" y="797" width="335" height="82" rx="5" fill="white" stroke="#628cd0" stroke-width="2"/>
+<text x="257" y="827" font-family="Arial" font-size="18" font-weight="bold" fill="#222" text-anchor="middle">Controlador de firma electrónica</text>
+<text x="257" y="859" font-family="Arial" font-size="16" font-weight="normal" fill="#555" text-anchor="middle">Firma y verificación pública</text>
+<rect x="90" y="902" width="335" height="82" rx="5" fill="white" stroke="#628cd0" stroke-width="2"/>
+<text x="257" y="932" font-family="Arial" font-size="18" font-weight="bold" fill="#222" text-anchor="middle">Controlador de usuarios y roles</text>
+<text x="257" y="964" font-family="Arial" font-size="16" font-weight="normal" fill="#555" text-anchor="middle">Administración de accesos</text>
+<rect x="90" y="1007" width="335" height="82" rx="5" fill="white" stroke="#628cd0" stroke-width="2"/>
+<text x="257" y="1037" font-family="Arial" font-size="18" font-weight="bold" fill="#222" text-anchor="middle">Controlador de reportes</text>
+<text x="257" y="1069" font-family="Arial" font-size="16" font-weight="normal" fill="#555" text-anchor="middle">Filtros y resultados</text>
+<rect x="90" y="1112" width="335" height="82" rx="5" fill="white" stroke="#628cd0" stroke-width="2"/>
+<text x="257" y="1142" font-family="Arial" font-size="18" font-weight="bold" fill="#222" text-anchor="middle">Controlador de asistente ia</text>
+<text x="257" y="1174" font-family="Arial" font-size="16" font-weight="normal" fill="#555" text-anchor="middle">Orientación al solicitante</text>
+<rect x="485" y="490" width="975" height="256" rx="5" fill="#e8f3e2" stroke="#a4cf98" stroke-width="2"/>
+<text x="972" y="529" font-family="Arial" font-size="23" font-weight="bold" fill="#222" text-anchor="middle">APLICACIÓN — CASOS DE USO</text>
+<text x="972" y="558" font-family="Arial" font-size="17" font-weight="normal" fill="#666" text-anchor="middle">Coordina las operaciones y utiliza los contratos del dominio</text>
+<rect x="510" y="582" width="288" height="58" rx="5" fill="white" stroke="#84b573" stroke-width="2"/>
+<text x="654" y="618" font-family="Arial" font-size="18" font-weight="bold" fill="#222" text-anchor="middle">Registrar trámite</text>
+<rect x="824" y="582" width="288" height="58" rx="5" fill="white" stroke="#84b573" stroke-width="2"/>
+<text x="968" y="618" font-family="Arial" font-size="18" font-weight="bold" fill="#222" text-anchor="middle">Derivar / re-derivar</text>
+<rect x="1138" y="582" width="288" height="58" rx="5" fill="white" stroke="#84b573" stroke-width="2"/>
+<text x="1282" y="618" font-family="Arial" font-size="18" font-weight="bold" fill="#222" text-anchor="middle">Consultar historial</text>
+<rect x="510" y="655" width="288" height="58" rx="5" fill="white" stroke="#84b573" stroke-width="2"/>
+<text x="654" y="691" font-family="Arial" font-size="18" font-weight="bold" fill="#222" text-anchor="middle">Firmar / verificar</text>
+<rect x="824" y="655" width="288" height="58" rx="5" fill="white" stroke="#84b573" stroke-width="2"/>
+<text x="968" y="691" font-family="Arial" font-size="18" font-weight="bold" fill="#222" text-anchor="middle">Gestionar usuarios</text>
+<rect x="1138" y="655" width="288" height="58" rx="5" fill="white" stroke="#84b573" stroke-width="2"/>
+<text x="1282" y="691" font-family="Arial" font-size="18" font-weight="bold" fill="#222" text-anchor="middle">Generar reporte</text>
+<text x="972" y="737" font-family="Arial" font-size="16" font-weight="normal" fill="#222" text-anchor="middle">Asistencia al usuario: caso de uso de orientación y consulta</text>
+<rect x="485" y="800" width="975" height="457" rx="5" fill="#fcf2dc" stroke="#e4c57c" stroke-width="2"/>
+<text x="972" y="839" font-family="Arial" font-size="23" font-weight="bold" fill="#222" text-anchor="middle">DOMINIO — NÚCLEO DEL SISTEMA</text>
+<text x="972" y="869" font-family="Arial" font-size="17" font-weight="normal" fill="#666" text-anchor="middle">Entidades · Reglas de negocio · Contratos (puertos)</text>
+<text x="725" y="909" font-family="Arial" font-size="19" font-weight="bold" fill="#222" text-anchor="middle">MODELOS Y REGLAS</text>
+<text x="1215" y="909" font-family="Arial" font-size="19" font-weight="bold" fill="#222" text-anchor="middle">CONTRATOS</text>
+<rect x="510" y="929" width="432" height="60" rx="5" fill="white" stroke="#dfbd65" stroke-width="2"/>
+<text x="726" y="956" font-family="Arial" font-size="18" font-weight="bold" fill="#222" text-anchor="middle">Trámite</text>
+<text x="726" y="979" font-family="Arial" font-size="15" font-weight="normal" fill="#222" text-anchor="middle">Identidad, solicitante y estado</text>
+<rect x="979" y="929" width="455" height="60" rx="5" fill="white" stroke="#dfbd65" stroke-width="2"/>
+<text x="1206" y="956" font-family="Arial" font-size="18" font-weight="bold" fill="#222" text-anchor="middle">Repositorio de trámites</text>
+<text x="1206" y="979" font-family="Arial" font-size="15" font-weight="normal" fill="#222" text-anchor="middle">Guardar y consultar trámites</text>
+<rect x="510" y="1002" width="432" height="60" rx="5" fill="white" stroke="#dfbd65" stroke-width="2"/>
+<text x="726" y="1029" font-family="Arial" font-size="18" font-weight="bold" fill="#222" text-anchor="middle">Derivación / Movimiento</text>
+<text x="726" y="1052" font-family="Arial" font-size="15" font-weight="normal" fill="#222" text-anchor="middle">Destino, responsable e historial</text>
+<rect x="979" y="1002" width="455" height="60" rx="5" fill="white" stroke="#dfbd65" stroke-width="2"/>
+<text x="1206" y="1029" font-family="Arial" font-size="18" font-weight="bold" fill="#222" text-anchor="middle">Repositorio de movimientos</text>
+<text x="1206" y="1052" font-family="Arial" font-size="15" font-weight="normal" fill="#222" text-anchor="middle">Registrar y consultar el historial</text>
+<rect x="510" y="1075" width="432" height="60" rx="5" fill="white" stroke="#dfbd65" stroke-width="2"/>
+<text x="726" y="1102" font-family="Arial" font-size="18" font-weight="bold" fill="#222" text-anchor="middle">Documento / Firma</text>
+<text x="726" y="1125" font-family="Arial" font-size="15" font-weight="normal" fill="#222" text-anchor="middle">Respuesta, integridad y firmante</text>
+<rect x="979" y="1075" width="455" height="60" rx="5" fill="white" stroke="#dfbd65" stroke-width="2"/>
+<text x="1206" y="1102" font-family="Arial" font-size="18" font-weight="bold" fill="#222" text-anchor="middle">Firmador de documentos</text>
+<text x="1206" y="1125" font-family="Arial" font-size="15" font-weight="normal" fill="#222" text-anchor="middle">Firmar y verificar integridad</text>
+<rect x="510" y="1148" width="432" height="60" rx="5" fill="white" stroke="#dfbd65" stroke-width="2"/>
+<text x="726" y="1175" font-family="Arial" font-size="18" font-weight="bold" fill="#222" text-anchor="middle">Usuario / Área</text>
+<text x="726" y="1198" font-family="Arial" font-size="15" font-weight="normal" fill="#222" text-anchor="middle">Roles y organización institucional</text>
+<rect x="979" y="1148" width="455" height="60" rx="5" fill="white" stroke="#dfbd65" stroke-width="2"/>
+<text x="1206" y="1175" font-family="Arial" font-size="18" font-weight="bold" fill="#222" text-anchor="middle">Repositorios y asistencia</text>
+<text x="1206" y="1198" font-family="Arial" font-size="15" font-weight="normal" fill="#222" text-anchor="middle">Usuarios, documentos y consulta IA</text>
+<text x="972" y="1244" font-family="Arial" font-size="16" font-weight="normal" fill="#222" text-anchor="middle">Las reglas del negocio no dependen de Laravel, MySQL, Redis ni del proveedor de IA.</text>
+<rect x="1495" y="490" width="448" height="767" rx="5" fill="#efe6f6" stroke="#b89bc9" stroke-width="2"/>
+<text x="1719" y="532" font-family="Arial" font-size="23" font-weight="bold" fill="#222" text-anchor="middle">INFRAESTRUCTURA</text>
+<text x="1719" y="563" font-family="Arial" font-size="17" font-weight="normal" fill="#666" text-anchor="middle">Adaptadores e implementaciones</text>
+<rect x="1520" y="587" width="398" height="82" rx="5" fill="white" stroke="#b89bc9" stroke-width="2"/>
+<text x="1719" y="617" font-family="Arial" font-size="18" font-weight="bold" fill="#222" text-anchor="middle">Repositorios MySQL</text>
+<text x="1719" y="648" font-family="Arial" font-size="15" font-weight="normal" fill="#222" text-anchor="middle">Eloquent ORM · Persistencia</text>
+<rect x="1520" y="692" width="398" height="82" rx="5" fill="white" stroke="#b89bc9" stroke-width="2"/>
+<text x="1719" y="722" font-family="Arial" font-size="18" font-weight="bold" fill="#222" text-anchor="middle">Adaptador de firma</text>
+<text x="1719" y="753" font-family="Arial" font-size="15" font-weight="normal" fill="#222" text-anchor="middle">Criptografía y verificación institucional</text>
+<rect x="1520" y="797" width="398" height="82" rx="5" fill="white" stroke="#b89bc9" stroke-width="2"/>
+<text x="1719" y="827" font-family="Arial" font-size="18" font-weight="bold" fill="#222" text-anchor="middle">Almacenamiento de documentos</text>
+<text x="1719" y="858" font-family="Arial" font-size="15" font-weight="normal" fill="#222" text-anchor="middle">Archivos de entrada y respuestas</text>
+<rect x="1520" y="902" width="398" height="82" rx="5" fill="white" stroke="#b89bc9" stroke-width="2"/>
+<text x="1719" y="932" font-family="Arial" font-size="18" font-weight="bold" fill="#222" text-anchor="middle">Adaptador de caché Redis</text>
+<text x="1719" y="963" font-family="Arial" font-size="15" font-weight="normal" fill="#222" text-anchor="middle">Catálogos y consultas frecuentes</text>
+<rect x="1520" y="1007" width="398" height="82" rx="5" fill="white" stroke="#b89bc9" stroke-width="2"/>
+<text x="1719" y="1037" font-family="Arial" font-size="18" font-weight="bold" fill="#222" text-anchor="middle">Adaptador de reportes</text>
+<text x="1719" y="1068" font-family="Arial" font-size="15" font-weight="normal" fill="#222" text-anchor="middle">Consultas de gestión documentaria</text>
+<rect x="1520" y="1112" width="398" height="82" rx="5" fill="white" stroke="#b89bc9" stroke-width="2"/>
+<text x="1719" y="1142" font-family="Arial" font-size="18" font-weight="bold" fill="#222" text-anchor="middle">Adaptador de IA</text>
+<text x="1719" y="1173" font-family="Arial" font-size="15" font-weight="normal" fill="#222" text-anchor="middle">Conexión al servicio de orientación</text>
+<polyline points="450,603 468,603 468,575 510,575" fill="none" stroke="#444" stroke-width="2" marker-end="url(#a)"/>
+<text x="455" y="488" font-family="Arial" font-size="15" font-weight="normal" fill="#222" text-anchor="start">invoca</text>
+<polyline points="972,746 972,800" fill="none" stroke="#444" stroke-width="2" stroke-dasharray="7 5" marker-end="url(#a)"/>
+<text x="992" y="779" font-family="Arial" font-size="16" font-weight="normal" fill="#222" text-anchor="start">depende del dominio</text>
+<polyline points="1495,975 1434,975" fill="none" stroke="#387c39" stroke-width="2" stroke-dasharray="7 5" marker-end="url(#g)"/>
+<polyline points="1495,1002 1478,1002 1478,1145 1434,1145" fill="none" stroke="#387c39" stroke-width="2" stroke-dasharray="7 5" marker-end="url(#g)"/>
+<text x="1719" y="1246" font-family="Arial" font-size="16" font-weight="normal" fill="#222" text-anchor="middle">Implementa los contratos del núcleo</text>
+<rect x="65" y="1290" width="1878" height="65" rx="5" fill="#f2f2f2" stroke="#999" stroke-width="2"/>
+<text x="1004" y="1319" font-family="Arial" font-size="20" font-weight="bold" fill="#222" text-anchor="middle">RAÍZ DE COMPOSICIÓN — CONFIGURACIÓN DE LARAVEL</text>
+<text x="1004" y="1345" font-family="Arial" font-size="17" font-weight="normal" fill="#222" text-anchor="middle">Service Providers / contenedor de dependencias: vincula los contratos con sus implementaciones</text>
+<polyline points="1730,1290 1730,1257" fill="none" stroke="#444" stroke-width="2" stroke-dasharray="7 5" marker-end="url(#a)"/>
+<rect x="2020" y="588" width="335" height="120" rx="5" fill="#eee" stroke="#777" stroke-width="2"/>
+<text x="2187" y="625" font-family="Arial" font-size="22" font-weight="bold" fill="#222" text-anchor="middle">MySQL</text>
+<text x="2187" y="660" font-family="Arial" font-size="17" font-weight="normal" fill="#555" text-anchor="middle">Trámites, movimientos,</text>
+<text x="2187" y="682" font-family="Arial" font-size="17" font-weight="normal" fill="#555" text-anchor="middle">usuarios y documentos</text>
+<polyline points="1918,628 1983,628 1983,648 2020,648" fill="none" stroke="#444" stroke-width="2" marker-end="url(#a)"/>
+<rect x="2020" y="764" width="335" height="120" rx="5" fill="#eee" stroke="#777" stroke-width="2"/>
+<text x="2187" y="801" font-family="Arial" font-size="22" font-weight="bold" fill="#222" text-anchor="middle">Almacenamiento</text>
+<text x="2187" y="836" font-family="Arial" font-size="17" font-weight="normal" fill="#555" text-anchor="middle">Archivos y respuestas</text>
+<text x="2187" y="858" font-family="Arial" font-size="17" font-weight="normal" fill="#555" text-anchor="middle">institucionales</text>
+<polyline points="1918,838 1983,838 1983,824 2020,824" fill="none" stroke="#444" stroke-width="2" marker-end="url(#a)"/>
+<rect x="2020" y="940" width="335" height="120" rx="5" fill="#eee" stroke="#777" stroke-width="2"/>
+<text x="2187" y="977" font-family="Arial" font-size="22" font-weight="bold" fill="#222" text-anchor="middle">Redis</text>
+<text x="2187" y="1012" font-family="Arial" font-size="17" font-weight="normal" fill="#555" text-anchor="middle">Caché de catálogos</text>
+<text x="2187" y="1034" font-family="Arial" font-size="17" font-weight="normal" fill="#555" text-anchor="middle">y consultas</text>
+<polyline points="1918,943 1983,943 1983,1000 2020,1000" fill="none" stroke="#444" stroke-width="2" marker-end="url(#a)"/>
+<rect x="2020" y="1116" width="335" height="120" rx="5" fill="#eee" stroke="#777" stroke-width="2"/>
+<text x="2187" y="1153" font-family="Arial" font-size="22" font-weight="bold" fill="#222" text-anchor="middle">Servicio de IA</text>
+<text x="2187" y="1188" font-family="Arial" font-size="17" font-weight="normal" fill="#555" text-anchor="middle">Integración externa</text>
+<text x="2187" y="1210" font-family="Arial" font-size="17" font-weight="normal" fill="#555" text-anchor="middle">según implementación</text>
+<polyline points="1918,1153 1983,1153 1983,1176 2020,1176" fill="none" stroke="#444" stroke-width="2" marker-end="url(#a)"/>
+<rect x="40" y="1420" width="820" height="235" rx="5" fill="white" stroke="#777" stroke-width="2"/>
+<text x="65" y="1460" font-family="Arial" font-size="22" font-weight="bold" fill="#222" text-anchor="start">Leyenda</text>
+<polyline points="65,1480 145,1480" fill="none" stroke="#444" stroke-width="2" marker-end="url(#a)"/>
+<text x="165" y="1486" font-family="Arial" font-size="17" font-weight="normal" fill="#222" text-anchor="start">Invocación o acceso a un recurso durante la ejecución</text>
+<polyline points="65,1520 145,1520" fill="none" stroke="#444" stroke-width="2" stroke-dasharray="7 5" marker-end="url(#a)"/>
+<text x="165" y="1526" font-family="Arial" font-size="17" font-weight="normal" fill="#222" text-anchor="start">Dependencia del código hacia las capas internas</text>
+<polyline points="65,1560 145,1560" fill="none" stroke="#387c39" stroke-width="2" stroke-dasharray="7 5" marker-end="url(#g)"/>
+<text x="165" y="1566" font-family="Arial" font-size="17" font-weight="normal" fill="#222" text-anchor="start">Implementación de un contrato del dominio</text>
+<polyline points="65,1590 145,1590 145,1615 65,1615 65,1590" fill="none" stroke="#777" stroke-width="2" stroke-dasharray="7 5"/>
+<rect x="65" y="1590" width="80" height="25" rx="5" fill="white" stroke="#777" stroke-width="2" stroke-dasharray="9 6"/>
+<text x="165" y="1607" font-family="Arial" font-size="17" font-weight="normal" fill="#222" text-anchor="start">Límite de la aplicación</text>
+<rect x="900" y="1420" width="1455" height="235" rx="5" fill="white" stroke="#777" stroke-width="2"/>
+<text x="925" y="1460" font-family="Arial" font-size="22" font-weight="bold" fill="#222" text-anchor="start">Reglas de dependencia</text>
+<text x="925" y="1495" font-family="Arial" font-size="18" font-weight="normal" fill="#222" text-anchor="start">1. El dominio contiene las reglas y contratos; no conoce tecnologías ni servicios externos.</text>
+<text x="925" y="1518" font-family="Arial" font-size="18" font-weight="normal" fill="#222" text-anchor="start">2. Los casos de uso dependen del dominio y coordinan las operaciones del sistema.</text>
+<text x="925" y="1541" font-family="Arial" font-size="18" font-weight="normal" fill="#222" text-anchor="start">3. Los controladores invocan casos de uso; no acceden directamente a la base de datos.</text>
+<text x="925" y="1564" font-family="Arial" font-size="18" font-weight="normal" fill="#222" text-anchor="start">4. Infraestructura implementa los contratos; el núcleo no depende de sus implementaciones.</text>
+<text x="925" y="1587" font-family="Arial" font-size="18" font-weight="normal" fill="#222" text-anchor="start">5. Laravel conecta contratos y adaptadores mediante el contenedor de dependencias.</text>
+<text x="925" y="1610" font-family="Arial" font-size="18" font-weight="normal" fill="#222" text-anchor="start">6. Las cuatro zonas forman parte del mismo monolito modular desplegable.</text>
+</svg>
